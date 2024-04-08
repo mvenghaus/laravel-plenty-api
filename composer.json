@@ -1,0 +1,36 @@
+{
+  "name": "mvenghaus/laravel-plenty-api",
+  "description": "Laravel Plenty API Client",
+  "keywords": [
+    "laravel",
+    "plenty"
+  ],
+  "homepage": "https://github.com/mvenghaus/laravel-plenty-api",
+  "support": {
+    "issues": "https://github.com/mvenghaus/laravel-plenty-api/issues",
+    "source": "https://github.com/mvenghaus/laravel-plenty-api"
+  },
+  "license": "MIT",
+  "authors": [ 
+    {
+      "name": "Marcus Venghaus",
+      "email": "marcus.venghaus@inklammern.de",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^8.2",
+    "saloonphp/saloon": "^3.7.0",
+    "illuminate/collections": "^11.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mvenghaus\\PlentyApi\\": "src"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
